@@ -55,8 +55,8 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(dddd);
                 } else if (position == 5) {
                     AlertDialog.Builder alertDialog = new AlertDialog.Builder(context);
-                    alertDialog.setTitle("Ini adalah alert dialog");
-                    alertDialog.setMessage("Apakah anda akan keluar dari aplikasi ini?")
+                    alertDialog.setTitle("Caution!!");
+                    alertDialog.setMessage("Apakah anda yakin akan keluar dari aplikasi ini?")
                             .setCancelable(false)
                             .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                                 @Override
